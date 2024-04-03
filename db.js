@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // Połączenie z bazą danych
-mongoose.connect("mongodb://localhost:27017/mojabaza", {
+mongoose.connect(MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

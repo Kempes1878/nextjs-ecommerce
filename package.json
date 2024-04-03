@@ -13,7 +13,14 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^5.10.14",
     "next": "^14.0.2",
+    "next-pwa": "^5.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "react-dom": "^18.2.0",
+    "workbox-webpack-plugin": "^7.0.0"
+  },
+  "description": "> Build a E-commerce Full Stack with Nextjs + Mongodb + React Hook + Bootstrap 4\r > Instructions on how to use nextjs in conjunction with mongodb to build a basic e-commerce website.",
+  "main": "db.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

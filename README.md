@@ -28,3 +28,25 @@
 ### Admin interface
 
 ![alt](https://res.cloudinary.com/devat-channel/image/upload/v1610956354/nextjs_media/Untitled_axeubb.png)
+
+{
+"name": "Sklep e-commerce",
+"short_name": "e-commerce",
+"description": "Twoje miejsce do zakupów online",
+"start_url": "/",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#0070f3",
+"icons": [
+{
+"src": "/icons/icon-72x72.png",
+"sizes": "72x72",
+"type": "image/png"
+},
+{
+"src": "/icons/icon-128x128.png",
+"sizes": "128x128",
+"type": "image/png"
+}
+]
+}
