@@ -6,7 +6,7 @@ const withPWA = require("next-pwa")({
 
 module.exports = withPWA({
   env: {
-    BASE_URL: "https://mojepwa.netlify.app/",
+    BASE_URL: "https://mojepwa.netlify.app",
     MONGODB_URL:
       "mongodb+srv://olas1878:Kempes_1878@cluster0.l7q0oqe.mongodb.net/next_ecommerce",
     ACCESS_TOKEN_SECRET:
