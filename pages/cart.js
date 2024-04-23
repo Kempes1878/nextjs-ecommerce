@@ -172,6 +172,11 @@ const Cart = () => {
           Proceed with payment
         </Link>
       </div>
+      <div>
+        <button className="btn btn-dark" onClick={() => router.back()}>
+          <i className="fas fa-long-arrow-alt-left" aria-hidden></i> Go Back
+        </button>
+      </div>
     </div>
   );
 };

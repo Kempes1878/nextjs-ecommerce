@@ -10,7 +10,13 @@ const ProductItem = ({ product, handleCheck }) => {
   const userLink = () => {
     return (
       <>
-        <Link href={`product/${product._id}`}>View</Link>
+        <Link
+          href={`product/${product._id}`}
+          className="btn btn-info"
+          style={{ marginRight: "5px", flex: 1 }}
+        >
+          View
+        </Link>
         <button
           className="btn btn-success"
           style={{ marginLeft: "5px", flex: 1 }}

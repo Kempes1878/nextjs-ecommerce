@@ -3,10 +3,12 @@ import { useState, useContext } from "react";
 import { getData } from "../../utils/fetchData";
 import { DataContext } from "../../store/GlobalState";
 import { addToCart } from "../../store/Actions";
+import { useRouter } from "next/router";
 
 const DetailProduct = (props) => {
   const [product] = useState(props.product);
   const [tab, setTab] = useState(0);
+  const router = useRouter();
 
   const { state, dispatch } = useContext(DataContext);
   const { cart } = state;
@@ -67,6 +69,11 @@ const DetailProduct = (props) => {
           onClick={() => dispatch(addToCart(product, cart))}
         >
           Buy
+        </button>
+      </div>
+      <div>
+        <button className="btn btn-dark" onClick={() => router.back()}>
+          <i className="fas fa-long-arrow-alt-left" aria-hidden></i> Go Back
         </button>
       </div>
     </div>
